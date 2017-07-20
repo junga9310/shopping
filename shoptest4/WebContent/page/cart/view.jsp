@@ -70,43 +70,7 @@
 				    <tr>
 							<td colspan="4">&nbsp;</td>
 							<td colspan="2">
-								<table class="table table-condensed total-result">
-									<tbody><tr>
-										<td>총 가격 :</td>
-										<td>${total}</td>
-									</tr>
-									<tr>
-										<td>주문고객 :</td>
-										<td>${custDTO.u_name }</td>
-									</tr>
-									<tr class="shipping-cost">
-										<td>우편번호 :</td>
-										<td> ${custDTO.u_post }</td>										
-									</tr>
-									<tr>
-										<td>주소 : </td>
-										<td><span>${custDTO.u_addr } - ${custDTO.u_addr_detail }</span></td>
-									</tr>
-									
-								</tbody></table>
-							</td>
-						</tr>
-					
-				</table>
-				<hr>
-				
-				
-				<div align=right>
-				 	<span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/wm?command=buycart">구매하기</a></span>
-				   <span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/index.jsp">메인 페이지로 가기</a></span>
-				</div>
-</div>
-</div>
-</div>
-
-<jsp:include page="../view/footer.jsp"/>
-
-
+							
 
 
 
