@@ -24,7 +24,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 		try {
 			con = DBUtil.getConnection();
-			ps = con.prepareStatement("select * from customer");
+			ps = con.prepareStatement("select * from customer order by u_level desc");
 			rs = ps.executeQuery();
 
 			while (rs.next()) {

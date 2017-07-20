@@ -13,12 +13,12 @@
 							
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">회원관리(리스트)</a></h4>
+									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/wm?command=selectCustAll">회원관리(리스트)</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/page/admin/CustomerselectOut.jsp">탈퇴회원리스트</a></h4>
+									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/wm?command=selectoutdate">탈퇴회원리스트</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
