@@ -15,19 +15,19 @@ public class ProdGenre implements Action {
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse respons) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		String url ="View/errorView.jsp";
+		String url ="page/view/errorView.jsp";
 		try{
 			String genre=request.getParameter("p_genre");
 			if(genre == null) {
-				request.setAttribute("errorMsg", "정보가 없습니다.");
+				request.setAttribute("errorMsg", "�젙蹂닿� �뾾�뒿�땲�떎.");
 				request.setAttribute("redirectPath", "index.jsp");
 			}
 			
 			List<ProductDTO> list = ProdService.prodtGenre(genre);
 			if(list == null) {
-				request.setAttribute("errorMsg", "정보가 없습니다.");
+				request.setAttribute("errorMsg", "�젙蹂닿� �뾾�뒿�땲�떎.");
 				request.setAttribute("redirectPath", "index.jsp");
-				//throw new Exception("정보가 없습니다.");
+				//throw new Exception("�젙蹂닿� �뾾�뒿�땲�떎.");
 			}else {
 				System.out.println(genre);
 				System.out.println("hi");

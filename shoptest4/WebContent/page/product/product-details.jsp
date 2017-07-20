@@ -11,37 +11,32 @@
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">발라드</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=ballad">발라드</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">댄스</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=dance">댄스</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">랩/힙합</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=hiphop">랩/힙합</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">R&B/SOUL</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=classic">인디음악</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">인디음악</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=rock">록/메탈</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">록/메탈</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">트로트</a></h4>
+									<h4 class="panel-title"><a href="wm?command=prodgenre&p_genre=ost">OST</a></h4>
 								</div>
 							</div>
 							
