@@ -31,12 +31,6 @@
 									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/wm?command=prodselectall">상품리스트</a></h4>
 								</div>
 							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#"></a></h4>
-								</div>
-							</div>
-							
 						</div><!--/category-products-->
 					
 					
