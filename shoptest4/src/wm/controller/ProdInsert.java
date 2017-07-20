@@ -50,7 +50,7 @@ public class ProdInsert implements Action{
 		    //System.out.println("hi");
 		    if(p_name == null || p_singer == null || p_price == null || p_desc == null || p_comp == null || p_hit == null 
 		    	|| p_genre == null || p_qtt == null || p_date == null || p_image == null) {
-				request.setAttribute("errorMsg", "�븘�닔 �엯�젰�쓣 �븯吏� �븡�븯�뒿�땲�떎.");
+				request.setAttribute("errorMsg", "not enough input");
 				request.setAttribute("redirectPath", "page/product/productInput.jsp");
 		    	//throw new Exception("�엯�젰�쓣 �븯吏� �븡�븯�뒿�땲�떎.");
 		    }

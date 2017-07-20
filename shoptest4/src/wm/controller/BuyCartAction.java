@@ -23,6 +23,7 @@ public class BuyCartAction implements Action{
 		
 		HttpSession session = request.getSession();
 		String u_id = (String) session.getAttribute("userId");
+		//int payment = Integer.parseInt(request.getParameter("payment")); // action -> 1 or 2 
 		int payment = 1;//Integer.parseInt(request.getParameter("payment"));
 		int tot_price=0;
 		//List buylist = new ArrayList<>();

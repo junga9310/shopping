@@ -18,11 +18,12 @@ public class ProdSelectAll implements Action{
 		try{	
 			List<ProductDTO> list = ProdService.prodselectAll();
 			if(list == null) {
-				request.setAttribute("errorMsg", "�젙蹂닿� �뾾�뒿�땲�떎.");
+				request.setAttribute("errorMsg", "not exist product");
 				request.setAttribute("redirectPath", "input.html");
 				//throw new Exception("�젙蹂닿� �뾾�뒿�땲�떎.");
 			}else {
 				request.setAttribute("list", list);
+				//System.out.println(list);
 				url= "page/product/prodlist.jsp";
 			}
 		}catch(Exception e){
