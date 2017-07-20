@@ -28,17 +28,9 @@ public class CartSelectByUserId implements Action {
 		HttpSession session = request.getSession();
 		
 		String u_id =(String)session.getAttribute("userId");
-		System.out.println(1);
-		System.out.println(u_id);
-	/*	int p_id = Integer.parseInt(request.getParameter("prodId"));
-		int c_qtt = Integer.parseInt(request.getParameter("cartQtt"));
-		String c_image = request.getParameter("cartImage");
-		*/
-	//	CartDTO cartDTO = new CartDTO(u_id, p_id, c_qtt, c_image);
 		CartDTO cartDTO = new CartDTO(u_id);
 		
 		ProductDAO prodDAO = new ProductDAOImpl();		
-		CartDAO cartDAO = new CartDAOImpl();
 		List<CartDTO> list;
 		List<CartProdDTO> cpList = new ArrayList<>();; 
 		String url = "errorView/CartErrorView.jsp";
@@ -66,11 +58,8 @@ public class CartSelectByUserId implements Action {
 				request.setAttribute("total", tot);
 				request.setAttribute("custDTO", custDTO);
 				url="page/cart/view.jsp";
-				System.out.println(cpList);
-				System.out.println(tot);
-				System.out.println(custDTO);
 			}else {
-				request.setAttribute("errorMsg", "�옣諛붽뎄�땲�뿉 �긽�뭹�씠 �뾾�뒿�땲�떎.");
+				request.setAttribute("errorMsg", "占쎌삢獄쏅떽�럡占쎈빍占쎈퓠 占쎄맒占쎈�뱄옙�뵠 占쎈씨占쎈뮸占쎈빍占쎈뼄.");
 			}
 		}catch(Exception e){
 			e.printStackTrace();

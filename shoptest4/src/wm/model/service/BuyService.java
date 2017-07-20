@@ -52,7 +52,7 @@ public class BuyService {
 		int result=0;
 		CartDTO cartDTO = new CartDTO(userid,productid);
 		if(amount<=0){
-		result = cartDAO.cartDelete(cartDTO);
+			//result = cartDAO.cartDelete(cartDTO);
 		}else{
 		result = cartDAO.cartUpdate(cartDTO);
 		}
