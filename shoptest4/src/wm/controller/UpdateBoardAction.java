@@ -47,7 +47,8 @@ public class UpdateBoardAction implements Action {
 			 }
 			 
 		 }else{//비번오류
-			 throw new Exception("비밀번호 다시 확인해주세요.");
+			 request.setAttribute("errorMsg", "비밀번호 다시 확인해주세요.");
+			 request.setAttribute("redirectPath", "wm?command=updateForm&BOARD_NUM="+bNo);
 		 }
 		
 		

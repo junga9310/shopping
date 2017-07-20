@@ -48,8 +48,9 @@
                <form  action="${pageContext.request.contextPath}/wm?command=updatePw" method="post"><!-- action은 servlet의 url pattern과 맞춰줘야함. -->
 				 <div class="login-form">
 				  아이디 : <input type="text" value="${userId}" name="userId" /><br/>
-				  비밀번호 : <input type="password" name="oldPwd" /><br/>
-				  새 비밀번호 : <input type="password" name="newPwd" /><br/>
+					  비밀번호 : <input type="password" name="oldPwd" required/><br/>
+				  새 비밀번호 : <input type="password" name="newPwd" pattern="[A-Za-z0-9]{5,16}" title="영어와 숫자를 섞어 5~16의 길이로 작성하시오" required/><br/>
+				  비밀번호확인:<input type="password" name="checkPwd" pattern="[A-Za-z0-9]{5,16}" title="영어와 숫자를 섞어 5~16의 길이로 작성하시오" required/>
 				 <input type="submit" value="비번바꾸기" />
 				 </div>
 				</form>
