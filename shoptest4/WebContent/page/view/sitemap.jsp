@@ -4,7 +4,7 @@
 <jsp:include page="../view/header.jsp"/>
 	
 	<section>
-		<div class="container">
+		<div class="container mb150 mt150">
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="left-sidebar ">
@@ -77,7 +77,7 @@
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/page/view/sitemap.jsp">장바구니</a></h4>
+									<h4 class="panel-title"><a onclick="login_chk2()" href="#">장바구니</a></h4>
 								</div>
 							</div>
 							
@@ -113,7 +113,7 @@
 	</section>
 	
 <script type="text/javascript">
-  
+	//마이페이지 이동 로그인확인
     function login_chk(){
     	if(${userId!=null}){
     		window.location.href="${pageContext.request.contextPath}/page/customer/mypage.jsp";
@@ -122,6 +122,7 @@
      	}
     	
     }
+  	//정보수정 이동 로그인확인
     function login_chk1(){
     	if(${userId!=null}){
     		window.location.href="${pageContext.request.contextPath}/wm?command=selectByUser";
@@ -130,6 +131,17 @@
      	}
     	
     }
+    //장바구니 이동 로그인확인
+    function login_chk2(){
+    	if(${userId!=null}){
+    		window.location.href="${pageContext.request.contextPath}/wm?command=CartSelectByUserId";
+     	}else{
+     		alert("로그인 하셔야 이동이 가능합니다.");
+     	}
+    	
+    }
+    
+    
 </script>
 	
 <jsp:include page="../view/footer.jsp"/>
