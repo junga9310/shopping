@@ -70,7 +70,7 @@ $(function(){
 	
 })
 </script>
-	<section id="slider"><!--slider-->
+	<section id="slider"><!--slider--> 
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -85,7 +85,7 @@ $(function(){
 							<div class="item active">
 								<div class="col-sm-3">
 									<img src="images/home/logo.png" width="150px" class="" alt="" />
-									<h2>레드벨벳 컴백!<h2>
+									<h2>레드벨벳 컴백! 하이<h2>
 									<p>레드벨벳 (Red Velvet) - 여름 미니앨범 [The Red Summer]</p>
 									<button type="button" class="btn btn-default get">바로가기</button>
 								</div>
