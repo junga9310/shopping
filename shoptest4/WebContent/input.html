@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function test(){
+		document.requestForm.wm.command.value ="delete";
+		document.requestForm.p_id.value =2;
+		document.requestForm.submit();	
+	}
+</script>
+</head>
+<body>
+
+<form action="wm?command=prodinsert" method="post" enctype="multipart/form-data">
+아이디 : <input type="text" name ="p_id"><br>
+상품 명: 	<input type="text" name="p_name"><br>
+가수 : 	<input type="text" name="p_singer"><br>
+가격 : 	<input type="text" name="p_price"><br>
+상품묘사 : 	<input type="text" name="p_desc"><br>
+회사 명 : 	<input type="text" name="p_comp"><br>
+조회 수 : 	<input type="text" name="p_hit"><br>
+장르 : 	<input type="text" name="p_genre"><br>
+수량 : 	<input type="text" name="p_qtt"><br> 
+출시 날짜 : 	<input type="date" name="p_date"><br>
+파일이름 : 	<input type="file" name="p_image"><br>
+<input type="submit" value="전송">			
+</form>
+
+<form action="wm?command=prodlike" method="post">
+구분 : <input type="text" name="decide">
+검색 단어 : <input type="text" name="sear">
+<input type="submit" value="검색">			
+</form> 
+ 
+<form action="wm?command=prodorder" method="post">
+정렬 : <input type="text" name="order">
+<input type="submit" value="정렬">			
+</form> 
+
+<form action="wm?command=prodselectwhere" method="post">
+선택 조건 : <input type="text" name="point">
+검색 요건 : <input type="text" name="show">
+<input type="submit" value="정렬">			
+</form> 
+
+<form action="wm?command=prodselectall" method="post">
+ <h3>
+	<input type="submit" value="전체보여죠">	
+ </h3>		
+</form> 
+
+</body>
+</html>

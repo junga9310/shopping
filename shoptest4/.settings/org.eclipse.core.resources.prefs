@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/css/main.css=UTF-8
+encoding//WebContent/page/view/footer.jsp=UTF-8
+encoding//src/wm/controller/ProdDetail.java=UTF-8
+encoding//src/wm/controller/ProdInsert.java=UTF-8
+encoding//src/wm/controller/ProdSelectAll.java=UTF-8
+encoding//src/wm/controller/ProdUpdateAll.java=UTF-8
+encoding//src/wm/controller/SelectProdOne.java=UTF-8
+encoding//src/wm/model/dao/CartDAOImpl.java=UTF-8
+encoding//src/wm/model/dao/ProductDAOImpl.java=UTF-8
+encoding//src/wm/model/service/CartService.java=UTF-8
+encoding//src/wm/model/service/ProdService.java=UTF-8
