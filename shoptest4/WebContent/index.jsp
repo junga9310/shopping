@@ -85,9 +85,9 @@ $(function(){
 							<div class="item active">
 								<div class="col-sm-3">
 									<img src="images/home/logo.png" width="150px" class="" alt="" />
-									<h2>레드벨벳 컴백! 하이<h2>
+									<h2>레드벨벳 컴백!<h2>
 									<p>레드벨벳 (Red Velvet) - 여름 미니앨범 [The Red Summer]</p>
-									<button type="button" class="btn btn-default get">바로가기</button>
+									
 								</div>
 								<div class="col-sm-8">
 									<img src="images/home/mainslide_03.jpg" class="girl img-responsive" alt="" />
@@ -98,7 +98,7 @@ $(function(){
 									<img src="images/home/logo.png" width="150px" class="" alt="" />
 									<h2>워너원 1st Mini Album 예약판매!!</h2>
 									<p>[세트 Sky Ver+Pink Ver] 워너원 (WANNA ONE) - 미니앨범 1st Mini Album</p>
-									<button type="button" class="btn btn-default get">바로가기</button>
+									
 								</div>
 								<div class="col-sm-8">
 									<img src="images/home/mainslide_01.jpg" class="girl img-responsive" alt="" />
@@ -106,14 +106,14 @@ $(function(){
 							</div>
 							
 							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>W</span>aterMelon</h1>
-									<h2>오늘의 이벤트</h2>
-									<p>내용</p>
-									<button type="button" class="btn btn-default get">바로가기</button>
+								<div class="col-sm-8">
+									<img src="images/home/mainslide_01.jpg" class="girl img-responsive" alt="" />
 								</div>
-								<div class="col-sm-6">
-									<img src="images/home/product3.png" class="girl img-responsive" alt="" />
+								<div class="col-sm-3">
+									<img src="images/home/logo.png" width="150px" class="" alt="" />
+									<h2>워너원 1st Mini Album 예약판매!!</h2>
+									<p>[세트 Sky Ver+Pink Ver] 워너원 (WANNA ONE) - 미니앨범 1st Mini Album</p>
+									<!--  <button type="button" class="btn btn-default get">바로가기</button> -->
 								</div>
 							</div>
 							
