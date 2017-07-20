@@ -2,6 +2,7 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="d" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <jsp:include page="../view/header.jsp"/>
 
@@ -34,6 +35,7 @@
 									<h4 class="panel-title"><a href="${pageContext.request.contextPath}/wm?command=prodselectall">상품리스트</a></h4>
 								</div>
 							</div>
+							
 						</div><!--/category-products-->
 					
 					
@@ -44,12 +46,13 @@
 					<caption><h3>탈퇴회원리스트 LIST</h3></caption>
 						
 						<tr>
-					       <td>회원아이디</td>
-					       <td>회원이름</td>
-					       <td>회원등급</td>
-					       <td>회원가입날짜</td>
-					       <td>회원탈퇴날짜</td>
-					       <td>삭제</td>
+					       <td>회원 아이디</td>
+					       <td>회원 이름</td>
+					       <td>회원 등급</td>
+					       <td>회원 이메일</td>
+					       <td>회원 전화번호</td>
+					       <td>회원 가입날짜</td>
+					       
 					       
 					    </tr>
 					    
@@ -57,7 +60,7 @@
 					    <c:when test="${empty requestScope.list}">
 						   <tr>
 					        <td colspan="5">
-					            <p align="center"><b><span style="font-size:9pt;">탈퇴한 회원이 없습니다.</span></b></p>
+					            <p align="center"><b><span style="font-size:9pt;">회원이 없습니다.</span></b></p>
 					        </td>
 					  	  </tr>
 					    </c:when>
@@ -66,10 +69,24 @@
 							    <tr>
 							       <td>${custdto.u_id}</td>
 							       <td>${custdto.u_name} </td>
-							       <td> ${custdto.u_level}</td>
-							       <td> ${custdto.u_indate}</td>
-							       <td> ${custdto.u_outdate}</td>
-							       <td><a href="wm?command=customerDelete&&userID=${custdto.u_id}">삭제</a></td>
+							      <d:choose>
+							      
+							      <d:when test="${custdto.u_level=='1'}">
+							      		<td>일반회원</td>
+							      </d:when>
+							      <d:when test="${custdto.u_level=='0'}">
+							      		<td>관리자</td>
+							      </d:when>
+							      <d:when test="${custdto.u_level=='2'}">
+							      		<td>VIP</td>
+							      </d:when>
+							
+							       </d:choose>
+							       
+							       <td> ${custdto.u_email}</td>
+							      <td> ${custdto.u_phone}</td>
+							      <td> ${custdto.u_indate}</td>
+							      
 							    </tr>
 					    </c:forEach>
 						</c:otherwise>

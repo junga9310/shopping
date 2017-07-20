@@ -20,7 +20,7 @@ public class CustomerSelectOutdate implements Action {
 		try {
 			List<CustomerDTO> list = CustomerService.customerSelectOut();
 			request.setAttribute("list", list);
-			urlpath = "CustomerselectOut.jsp";
+			urlpath = "page/admin/CustomerselectOut.jsp";
 
 		} catch (Exception e) {
 			request.setAttribute("errorMsg", "검색도중 오류가 발생했습니다.");

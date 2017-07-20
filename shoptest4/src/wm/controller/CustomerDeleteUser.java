@@ -20,12 +20,12 @@ public class CustomerDeleteUser implements Action {
 		String u_id=request.getParameter("userID");
 	
 		int result=0;
-		String urlpath="ErrorView.jsp";
+		String urlpath="page/view/errorView.jsp";
 		result=CustomerService.customerDelete(u_id);
 		if(result>0)
 		{ 
-			urlpath="index.jsp";
-			return;
+			request.setAttribute("errorMsg", "삭제되었습니다.");
+			request.setAttribute("redirectPath", "wm?command=selectoutdate");
 		}
 		else
 		{

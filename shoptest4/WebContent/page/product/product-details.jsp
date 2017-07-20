@@ -75,6 +75,7 @@
 										<i class="fa fa-shopping-cart"></i>
 										<a href="${pageContext.request.contextPath}/wm?command=CartInsert&prodId=${prod.p_id}&cartImage=${prod.p_image}">장바구니</a>
 									</button>
+									</button>
 								</span>
 								<p><b>장르:</b> ${prod.p_genre}</p>
 								<p><b>소속사:</b> ${prod.p_comp}</p>

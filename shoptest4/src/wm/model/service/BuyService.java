@@ -1,6 +1,7 @@
 package wm.model.service;
 
 import java.sql.SQLException;
+
 import wm.model.dao.BuyTwoDAO;
 import wm.model.dao.BuyTwoDAOImpl;
 import wm.model.dao.BuyoneDAO;
@@ -29,9 +30,13 @@ public class BuyService {
 		}
 		return totprice;
 	}
-//1. buy1에 삽입
+//1. buy1에 삽입//
 	public static int insertToBuyone(String userid,int totalprice,int payment) throws SQLException{
+		//total price는 cart에서 받아.
+		
+		
 		BuyoneDTO buyoneDTO = new BuyoneDTO(userid,totalprice,payment);
+		
 		int result = buyoneDAO.buyoneInsert(buyoneDTO);
 		return result;//0:실패 1:성공
 	}
@@ -45,16 +50,16 @@ public class BuyService {
 	}
 //3. cart에서 삭제 수정 업데이트.
 	public static int updateCart(String userid, int productid) throws SQLException{
-		//장바구니 수량이랑 비교해서 작으면 업데이트 크면 삭제
-		int cartamount = cartDAO.cartQttByPK(userid,productid);
-		int productamount = productDAO.productQttByNo(productid);
+		//장바구니 수량이랑 비교해서 작으면 업데이트 크면 삭제 //구매하기 누를때.
+		int cartamount = cartDAO.cartQttByPK(userid,productid);//카트수량
+		int productamount = productDAO.productQttByNo(productid);//재고수량
 		int amount = cartamount-productamount;
 		int result=0;
 		CartDTO cartDTO = new CartDTO(userid,productid);
-		if(amount<=0){
-			//result = cartDAO.cartDelete(cartDTO);
-		}else{
-		result = cartDAO.cartUpdate(cartDTO);
+		if(amount<0){//수량이 작아
+	//	amount<0//아무일안함. //카트수량>재고수량
+		
+			result = cartDAO.cartDelete(cartDTO);//카트수량업데이트 
 		}
 		return result;
 	}
@@ -81,7 +86,8 @@ public class BuyService {
 	   		{//레벨업 알림
 	   			urlPath="wm?command=levelup";
 	   		}else{//아무메시지 없음
-			urlPath="buycomplete.jsp";//없는jsp
+	   		 
+	   			urlPath="index.jsp";
 	   		}
 		}catch(SQLException e){
 			e.printStackTrace();
