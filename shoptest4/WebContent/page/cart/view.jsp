@@ -101,7 +101,7 @@
 				</table>
 				<hr>
 				
-				총 가격 : ${total }
+				총 가격 : ${total}
 				<p>주문고객 : ${custDTO.u_name }</p>
 <p>우편번호 : ${custDTO.u_post }</p>
 <p>주소 : ${custDTO.u_addr }</p>
@@ -109,6 +109,7 @@
 				<div align=right>
 				   <span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/index.jsp">메인 페이지로 가기</a></span>
 				</div>
+				<a href="${pageContext.request.contextPath}/wm?command=buycart">구매하러가기</a>
 </div>
 </div>
 </div>
