@@ -43,7 +43,7 @@
 					<table align="center" border="0"  width="100%" >
 					<caption><h3>탈퇴회원리스트 LIST</h3></caption>
 						
-						<tr>
+						<tr bgcolor="#fdb45e" style="text-align:center;color:#FFF;font-size:15px;">
 					       <td>회원아이디</td>
 					       <td>회원이름</td>
 					       <td>회원등급</td>
@@ -63,7 +63,7 @@
 					    </c:when>
 					    <c:otherwise>
 						<c:forEach items="${requestScope.list}" var="custdto">
-							    <tr>
+							   <tr style="text-align:center;" onmouseover="this.style.background='#eaeaea'" onmouseout="this.style.background='white'" style="background: white;" >
 							       <td>${custdto.u_id}</td>
 							       <td>${custdto.u_name} </td>
 							       <td> ${custdto.u_level}</td>

@@ -47,52 +47,52 @@
 					<table align="center" border="0" cellpadding="5" cellspacing="2" width="100%" bordercolordark="white" bordercolorlight="black">
 						<caption>상품 LIST</caption>
 						   <colgroup>
-						      <col width="15%"/>
-						      <col width="30%"/>
-						      <col width="16%"/>
-						      <col width="16%"/>
-						      <col width="7%"/>
-						      <col width="7%"/>
+						      <col width="20%"/>
+						      <col width="10%"/>
+						      <col width="10%"/>
+						      <col width="8%"/>
+						      <col width="8%"/>
+						      <col width="10%"/>
 						      <col width="7%"/>
 						   </colgroup>
 						   <tr>
-						      <td bgcolor="#00cc00">
+						      <td bgcolor="#fdb45e">
 						            <p align="center">
 						            <font color="white"><b><span style="font-size:9pt;">사진</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center">
 						            <font color="white"><b><span style="font-size:9pt;">상품 아이디</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">상품 이름</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">가수 명</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">가격</span></b></font></p>
 						        </td>
 						        
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">상품 설명</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">조회 수</span></b></font></p>
 						        </td>
-						        <td bgcolor="#00cc00">
+						        <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">장르</span></b></font></p>
 						        </td>
-						   <td bgcolor="#00cc00">
+						   <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">수량</span></b></font></p>
 						        </td>
-						   <td bgcolor="#00cc00">
+						   <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">출시 날짜</span></b></font></p>
 						        </td>
-						    <td bgcolor="#00cc00">
+						    <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">삭제</span></b></font></p>
 						        </td>
-						    <td bgcolor="#00cc00">
+						    <td bgcolor="#fdb45e">
 						            <p align="center"><font color="white"><b><span style="font-size:9pt;">수정</span></b></font></p>
 						        </td>
 						    </tr>

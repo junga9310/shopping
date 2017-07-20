@@ -66,7 +66,7 @@ private static CartDAO cartDAO = new CartDAOImpl();
 			}
 		}else{  //�빐�떦 �긽�뭹�씠 �씠誘� �떞寃� �엳�떎 -> �뾽�뜲�씠�듃
 			if(prodQtt >= c_qtt+1){ //�긽�뭹�닔�웾�씠 �떞怨좎옄 �븯�뒗 �닔�웾蹂대떎 留롫떎
-				result = cartDAO.cartQttUpdate(c_qtt+1, u_id, p_id);
+				result = cartDAO.cartQttUpdate(c_qtt+tempDTO.getCartQtt(), u_id, p_id);
 				return result;
 			}else{
 				return 0; //�꽑�깮�븳 �닔�웾�씠 �옱怨좎닔�웾蹂대떎 �뜑 留롫떎.
