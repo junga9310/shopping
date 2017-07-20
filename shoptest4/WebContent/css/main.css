@@ -221,8 +221,8 @@ a#scrollUp i{
 
 
 .header-bottom {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   border-top:1px solid #F0F0F0;
   border-bottom:1px solid #F0F0F0;
 }
@@ -572,6 +572,7 @@ ul.sub-menu {
 
 
 #slider {
+	padding-top:20px;
   padding-bottom: 45px;
 }
 
@@ -2534,3 +2535,13 @@ pre{border:0px;}
 
 .ww{width: 100% !important;}
 .fl{float: left !important;}
+
+
+.bga{    border: 1px solid #ddd !important;}
+.mb10{margin-bottom: 10px !important;}
+.mt10{margin-top: 10px !important;}
+.mb100{margin-bottom: 100px !important;}
+.mb150{margin-bottom: 150px !important;}
+.mb200{margin-bottom: 200px !important;}
+
+
