@@ -13,10 +13,7 @@
 							<input type="text" name="userId" placeholder="ID" />
 							<input type="password" name="userPwd" placeholder="PASSWORD" />
 							
-							<span>
-								<input type="checkbox" class="checkbox"> 
-								Keep me signed in
-							</span>
+							
 							<div class="text-right">
 								<a href="join.jsp">Signup</a>
 							</div>
