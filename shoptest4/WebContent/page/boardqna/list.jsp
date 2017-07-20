@@ -96,9 +96,30 @@
 					
 					<hr>
 					<div align=right>
-					<span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/page/boardqna/write.jsp">글쓰기</a></span></div>
+					<span style="font-size:9pt;"><button class="btn btn-default" onclick="id_chk()" >글쓰기</button></span></div>
 </div>
 </div>
 </div>
+
+<script type="text/javascript">
+  
+    function id_chk(){
+    	if(${userId!=null}){
+    		window.location.href="${pageContext.request.contextPath}/page/boardqna/write.jsp";
+     	}else{
+     		alert("로그인 하셔야 글쓰기가 가능합니다.");
+     	}
+    	
+    }
+    function id_chk2(){
+    	if(${userId!=null}){
+    		window.location.href="wm?command=detailView&BOARD_NUM=${qnaDto.BOARD_NUM}";
+     	}else{
+     		alert("로그인 하셔야 글보기가 가능합니다.");
+     	}
+    	
+    }
+    
+</script>
 
 <jsp:include page="../view/footer.jsp"/>
