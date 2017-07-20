@@ -38,7 +38,7 @@
 				</div>
 				
 				<div class="col-sm-8">
-					<div class="text-center">관리자페이지입니다.</div> 
+					<div class="text-center mt100"><h3>관리자페이지입니다.</h3></div> 
 
 				</div>
 			</div>

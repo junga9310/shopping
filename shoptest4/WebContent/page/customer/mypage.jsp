@@ -44,7 +44,7 @@
 				</div>
 				
 				<div class="col-sm-8">
-					안녕하세요. ${sessionScope.userId} 님 마이페이지입니다.
+					<div class="text-center mt100"><h3>안녕하세요. ${sessionScope.userId} 님 마이페이지입니다.</h3></div> 
 					
 
 				</div>

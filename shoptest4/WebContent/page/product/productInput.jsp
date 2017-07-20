@@ -44,7 +44,7 @@
 				</div>
 				
 				<div class="col-sm-8">
-					<div >
+					<div class="form-two">
 				      <form action="${pageContext.request.contextPath}/wm?command=prodinsert" method="post" enctype="multipart/form-data"><!-- action은 servlet의 url pattern과 맞춰줘야함. -->
 				         <div class="form-group">
 				         <div>
@@ -102,6 +102,11 @@
 				        </div>
 				        <input type="submit" value="추가하기">
 				      </form>
+				      
+				      
+				      
+				      
+				      
 				</div>
 
 				</div>
