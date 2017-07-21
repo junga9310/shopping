@@ -47,37 +47,24 @@
 					<div class="form-two">
 				      <form action="${pageContext.request.contextPath}/wm?command=prodinsert" method="post" enctype="multipart/form-data"><!-- action은 servlet의 url pattern과 맞춰줘야함. -->
 				         <div class="form-group">
-				         <div>
 				             <label for="p_id">상품 번호</label>
-				               <input type="text" name="p_id"><br>
-				            </div>      
+				             <input type="text" name="p_id"><br>  
 				         
-				         <div>
 				             <label for="p_name">상품 이름</label>
-				               <input type="text" name="p_name"><br>
-				            </div>      
+				               <input type="text" name="p_name"><br>     
 				         
-				         <div>
 				             <label for="p_singer">가수 정보</label>
 				               <input type="text" name="p_singer"><br>
-				            </div>      
-				         
-				            <div>
+				               
 				             <label for="p_price">가격 정보</label>
 				               <input type="text" name="p_price"><br>
-				            </div>      
-				         
-				           
-				           <div>
+				               
 				             <label for="p_desc">상세 정보</label>
 				               <input type="text" name="p_desc"><br>
-				            </div>      
-				         
-				         
-				            <div>
+				               
 				             <label for="p_hit">판매 수량 </label>
 				               <input type="text" name="p_hit"><br>
-				            </div>     
+				         </div>     
 				         
 				         <div>
 				         <label for="genre">장르 선택 </label>
