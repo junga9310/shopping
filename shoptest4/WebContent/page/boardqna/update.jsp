@@ -9,7 +9,7 @@
 
 <div class="container">
 <div class="row">
-<div class="col-sm-12">
+<div class="col-sm-12 mb100">
 <form name=updateForm method=post action="wm" onSubmit="return checkValid()">
     <input type="hidden" value="update" name="command">
     <input type='hidden' name='BOARD_NUM' value="${qna.BOARD_NUM}">

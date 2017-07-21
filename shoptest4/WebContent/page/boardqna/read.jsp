@@ -19,6 +19,16 @@ function sendDelete(){
 
 //버튼
 function reply(){
+	
+	if(${userId!=null}){
+		document.requestForm.command.value ="writeReply";
+		document.requestForm.submit();
+	}else{
+		 alert( "답글을 달기 위해서는 로그인이 필요합니다." );
+		 return;
+	}
+	
+	
 	document.requestForm.command.value ="writeReply";
 //document.requestForm.BOARD_NUM.value="${qna.BOARD_NUM}"
  //location.href="${pageContext.request.contextPath}/page/boardqna/writereply.jsp";

@@ -78,7 +78,7 @@
 </form>
 
 <hr>
-<div align=right><span style="font-size:9pt;"><a  class="btn btn-default"   href="../../wm?command=list">리스트로 돌아가기</a></span></div>
+<div align=right><span style="font-size:9pt;"><a  class="btn btn-default"   href="${pageContext.request.contextPath}/wm?command=list">리스트로 돌아가기</a></span></div>
 
 
 </div>

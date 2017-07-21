@@ -67,7 +67,7 @@
 											<a id="p_image" href="wm?command=proddetail&p_id=${prod.p_id}"><img src="${pageContext.request.contextPath}/save/${prod.p_image}" alt="" /></a>
 											<h4 id="p_price">${prod.p_price}원</h4>
 											<p id="p_singer">${prod.p_singer} - ${prod.p_name}</p>
-											<a href="wm?command=proddetail&p_id='${prod.p_id}'" class="btn btn-default">자세히보기</a>
+											<a href="${pageContext.request.contextPath}/wm?command=proddetail&p_id=${prod.p_id}" class="btn btn-default">자세히보기</a>
 										</div>			
 								</div>
 							</div>

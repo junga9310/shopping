@@ -47,28 +47,41 @@
 					<div class="form-two">
 				      <form action="${pageContext.request.contextPath}/wm?command=prodinsert" method="post" enctype="multipart/form-data"><!-- action은 servlet의 url pattern과 맞춰줘야함. -->
 				         <div class="form-group">
+				         <div>
 				             <label for="p_id">상품 번호</label>
-				             <input type="text" name="p_id"><br>  
+				               <input type="text" name="p_id"><br>
+				            </div>      
 				         
+				         <div>
 				             <label for="p_name">상품 이름</label>
-				               <input type="text" name="p_name"><br>     
+				               <input type="text" name="p_name"><br>
+				            </div>      
 				         
+				         <div>
 				             <label for="p_singer">가수 정보</label>
 				               <input type="text" name="p_singer"><br>
-				               
+				            </div>      
+				         
+				            <div>
 				             <label for="p_price">가격 정보</label>
 				               <input type="text" name="p_price"><br>
-				               
+				            </div>      
+				         
+				           
+				           <div>
 				             <label for="p_desc">상세 정보</label>
 				               <input type="text" name="p_desc"><br>
-				               
+				            </div>      
+				         
+				         
+				            <div>
 				             <label for="p_hit">판매 수량 </label>
 				               <input type="text" name="p_hit"><br>
-				         </div>     
+				            </div>     
 				         
 				         <div>
 				         <label for="genre">장르 선택 </label>
-				         <select name="genre" size="1" >
+				         <select name="genre" size="1" style="border:1px solid #696763">
 				         <option value="ballad">Ballad</option>
 				         <option value="ballad">Classic</option>
 				         <option value="ballad">Hiphop</option>
@@ -87,7 +100,7 @@
 				               <input type="file" id="file" name="p_image" multiple>
 				          </div>       
 				        </div>
-				        <input type="submit" value="추가하기">
+				        <input class="btn btn-default" type="submit" value="추가하기" >
 				      </form>
 				      
 				      
