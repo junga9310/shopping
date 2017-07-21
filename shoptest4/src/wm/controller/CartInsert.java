@@ -21,8 +21,13 @@ public class CartInsert implements Action {
       
       HttpSession session = request.getSession();
       String u_id =(String) session.getAttribute("userId");
-      System.out.println("�븘�씠�뵒");
-      System.out.println(u_id);
+      String urlPath="page/view/errorView.jsp";
+
+      if(u_id == null){
+    	  request.setAttribute("errorMsg", "login please!");
+    	  request.setAttribute("redirectPath", "page/customer/login.jsp");
+          request.getRequestDispatcher(urlPath).forward(request, response);
+      }
       
       int p_id = Integer.parseInt(request.getParameter("prodId"));
    //   int c_qtt = Integer.parseInt(request.getParameter("cartQtt"));
@@ -36,7 +41,6 @@ public class CartInsert implements Action {
       ProductDAO prodDAO = new ProductDAOImpl();      
       CartDAO cartDAO = new CartDAOImpl();
       
-      String urlPath=null;
 
       try{
          if(CartService.insert(cartDTO) > 0){ 
@@ -44,7 +48,7 @@ public class CartInsert implements Action {
             urlPath = "wm?command=CartSelectByUserId";
          }else{
              urlPath="page/view/errorView.jsp";
-             request.setAttribute("errorMsg", "�뜝�럩�궋�뛾�룆�뼺占쎈윞�뜝�럥鍮띶뜝�럥�뱺 �뜝�럥堉뽩뜝�럩諭� �뜝�럥�빢 �뜝�럥�뵪�뜝�럥裕멨뜝�럥鍮띶뜝�럥堉�");
+             request.setAttribute("errorMsg", "fail to insert to cart!");
          }
       }catch(Exception e){
          e.printStackTrace();

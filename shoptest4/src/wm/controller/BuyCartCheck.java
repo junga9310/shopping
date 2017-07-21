@@ -1,6 +1,8 @@
 package wm.controller;
 
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -20,7 +22,13 @@ public class BuyCartCheck implements Action{
 		HttpSession session = request.getSession();
 		String u_id = (String) session.getAttribute("userId");
 		CartDAO cartDAO = new CartDAOImpl();
-		List<CartDTO> cartlist = cartDAO.cartSelectByUserId(u_id);
+		List<CartDTO> cartlist=new ArrayList<>();
+		try {
+			cartlist = cartDAO.cartSelectByUserId(u_id);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		String urlpath="page/view/errorView.jsp";
 		if(cartlist==null){
 			request.setAttribute("errorMsg", "장바구니에 상품이 없습니다.");

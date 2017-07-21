@@ -19,11 +19,11 @@ public class InfoCust implements Action {
 		int result=0;
 		CustomerDTO dto=null;
 		String urlpath="page/view/errorView.jsp";
-	
 		try {
 			HttpSession session=request.getSession();
 			String id=(String) session.getAttribute("userId");
-	
+			System.out.println(11111);
+			System.out.println("id"+id);
 			dto=CustomerService.customerSelectByUser(id);
 			if(dto!=null)
 			{
