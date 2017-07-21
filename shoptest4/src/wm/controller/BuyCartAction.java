@@ -23,13 +23,20 @@ public class BuyCartAction implements Action{
 		
 		HttpSession session = request.getSession();
 		String u_id = (String) session.getAttribute("userId");
-		//int payment = Integer.parseInt(request.getParameter("payment")); // action -> 1 or 2 
-		int payment = 1;//Integer.parseInt(request.getParameter("payment"));
+		String urlpath="page/view/errorView.jsp";
+		if(request.getParameter("payment")==null)
+		{
+			request.setAttribute("errorMsg", "결제수단을 체크해주세요");
+			request.setAttribute("redirectPath", "wm?command=purchase");
+			request.getRequestDispatcher(urlpath).forward(request,respons);
+		}
+		int payment = Integer.parseInt(request.getParameter("payment")); // action -> 1 or 2 
+		//int payment = 1;//Integer.parseInt(request.getParameter("payment"));
 		int tot_price=0;
 		//List buylist = new ArrayList<>();
 		CartDAO cartDAO = new CartDAOImpl();
 		ProductDAO prodDAO = new ProductDAOImpl();
-		String urlpath="page/view/errorView.jsp";
+
 		
 		try{
 		List<CartDTO> cartlist = cartDAO.cartSelectByUserId(u_id);
