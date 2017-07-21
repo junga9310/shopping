@@ -6,6 +6,7 @@ encoding//src/wm/controller/CartInsert.java=UTF-8
 encoding//src/wm/controller/CartInsertAtCart.java=UTF-8
 encoding//src/wm/controller/CartSelectByUserId.java=UTF-8
 encoding//src/wm/controller/ProdDetail.java=UTF-8
+encoding//src/wm/controller/ProdGenre.java=UTF-8
 encoding//src/wm/controller/ProdInsert.java=UTF-8
 encoding//src/wm/controller/ProdSelectAll.java=UTF-8
 encoding//src/wm/controller/ProdUpdateAll.java=UTF-8
