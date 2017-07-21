@@ -52,8 +52,8 @@
 					<tr>
 						<td>결제수단</td>
 						<td>
-						<input type="radio" id="chk1" name="userErec" value="1"><label for="chk1">카드결제</label>
-							<input type="radio" id="chk2" name="userErec" value="0"><label for="chk2">현금결제</label></br/>
+						<input type="radio" id="chk1" name="payment" value="1"><label for="chk1">카드결제</label>
+							<input type="radio" id="chk2" name="payment" value="0"><label for="chk2">현금결제</label></br/>
 						</td>
 					
 					</tr>
