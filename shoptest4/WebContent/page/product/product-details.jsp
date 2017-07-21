@@ -73,7 +73,7 @@
 								<!-- p_id에 해당하는 상품 가격-->	
 									<button type="button" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
-
+s
 										<a href="#" onclick="cart()">장바구니</a>
 									</button>
 									<button type="button" class="btn btn-fefault cart">
@@ -82,7 +82,6 @@
 										
 									</button>
 
-									</button>
 								</span>
 								<p><b>장르:</b> ${prod.p_genre}</p>
 								<p><b>소속사:</b> ${prod.p_comp}</p>
