@@ -30,25 +30,33 @@ public class BuyCartAction implements Action{
 		CartDAO cartDAO = new CartDAOImpl();
 		ProductDAO prodDAO = new ProductDAOImpl();
 		String urlpath="page/view/errorView.jsp";
+		
 		try{
 		List<CartDTO> cartlist = cartDAO.cartSelectByUserId(u_id);
 		
+			if(cartlist==null){
+				request.setAttribute("errorMsg", "장바구니에 상품이 없습니다.");
+				request.setAttribute("redirectPath", "wm?command=CartSelectByUserId");
+				request.getRequestDispatcher(urlpath).forward(request,respons);
+			}
+			
 			for(CartDTO list : cartlist){
 				int p_id = list.getProdId();
 				int o_amount = list.getCartQtt();
 				
 				int result=BuyService.updateCart(u_id, p_id);
-				if(result!=0)
-				{
-				BuyService.updateProduct(p_id, o_amount);
-				tot_price=+BuyService.calculateTotal(p_id, o_amount);
-				}
-				else{
+				if(result==0){
 					request.setAttribute("errorMsg", "상품재고가 없습니다.");
 					request.setAttribute("redirectPath", "wm?command=CartSelectByUserId");
 					request.getRequestDispatcher(urlpath).forward(request,respons);
-					
 				}
+			}
+			
+			for(CartDTO list : cartlist){
+				int p_id = list.getProdId();
+				int o_amount = list.getCartQtt();
+				BuyService.updateProduct(p_id, o_amount);
+				tot_price=+BuyService.calculateTotal(p_id, o_amount);
 			}
 			
 			BuyService.insertToBuyone(u_id, tot_price, payment);//cart에서 받은 totprice
