@@ -136,7 +136,7 @@
 						              </td>
 						               
 						               <td bgcolor="">
-						                  <p align="center"><span style="font-size:9pt;">
+						                  <p align="center"><span style="font-size:9pt;overflow:hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;" >
 						                  ${prod.p_desc}</span></p>
 						              </td>
 						               <td bgcolor="">
