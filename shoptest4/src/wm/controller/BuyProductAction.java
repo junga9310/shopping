@@ -29,13 +29,13 @@ public class BuyProductAction implements Action{
 			System.out.println(1);
 			if(up==1){//구매성공
 			BuyService.insertToBuyone(u_id, totalprice, payment);
-			System.out.println(2);
+			//System.out.println(2);
 			BuyService.insertToBuytwo(p_id, o_amount);
-			System.out.println(3);
+			//System.out.println(3);
 			BuyService.updateCart(u_id, p_id);
-			System.out.println(3);
+			//System.out.println(3);
 			prodDAO.productUpdateHit(p_id);
-			System.out.println(5);
+			//System.out.println(5);
 			urlpath = BuyService.userLevelUpdate(u_id);
 			}else{//구매실패
 				request.setAttribute("errorMsg", "재고가 부족하여 구매할 수 없습니다.");
