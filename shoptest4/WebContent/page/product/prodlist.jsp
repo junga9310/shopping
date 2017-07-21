@@ -111,7 +111,7 @@
 						              onmouseout="this.style.background='white'">
 						               <td bgcolor="">
 						                  <p align="center"><span style="font-size:9pt;">
-						                 <img src= "${pageContext.request.contextPath}/save/${prod.p_image}"/></span></p>
+						                 <img width="100px" src= "${pageContext.request.contextPath}/save/${prod.p_image}"/></span></p>
 						              </td>
 						              <td bgcolor="">
 						                  <p align="center"><span style="font-size:9pt;">
