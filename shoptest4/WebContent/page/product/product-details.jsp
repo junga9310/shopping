@@ -74,7 +74,9 @@
 									<button type="button" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
 										<a href="${pageContext.request.contextPath}/wm?command=CartInsert&prodId=${prod.p_id}&cartImage=${prod.p_image}">장바구니</a>
-									</button>
+									</button><button type="button" class="btn btn-fefault cart">
+										<i class="fa fa-shopping-cart"></i>
+										<a href="${pageContext.request.contextPath}/wm/buyComplete.jsp&prodId=${prod.p_id}&prodamount=${prod.p_amount}">구매하기</a>
 									</button>
 								</span>
 								<p><b>장르:</b> ${prod.p_genre}</p>

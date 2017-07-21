@@ -78,7 +78,7 @@ public class BuyCartAction implements Action{
 				 prodDAO.productUpdateHit(p_id);
 				}
 			}
-			
+			System.out.println("결제완료");
 			request.setAttribute("errorMsg", "thank you for purchase");
 			request.setAttribute("redirectPath", "index.jsp");
 		
