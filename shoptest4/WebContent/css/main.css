@@ -1296,7 +1296,7 @@ h2.title {
   margin-left: 20px;
 }
 
-
+.cart>a{color: #FFFFFF !important;}
 .shop-details-tab {
   border: 1px solid #F7F7F0;
   margin-bottom: 75px;
