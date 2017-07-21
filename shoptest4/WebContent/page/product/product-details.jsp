@@ -73,7 +73,7 @@
 								<!-- p_id에 해당하는 상품 가격-->	
 									<button type="button" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
-										<a href="${pageContext.request.contextPath}/wm?command=CartInsert&prodId=${prod.p_id}&cartImage=${prod.p_image}">장바구니</a>
+										<a href="#" onclick="cart()">장바구니</a>
 									</button>
 									</button>
 								</span>
@@ -112,5 +112,19 @@
 			</div>
 		</div>
 	</section>
+	
+<script type="text/javascript">
+  
+    function cart(){
+    	if(${userId!=null}){
+    		window.location.href="${pageContext.request.contextPath}/wm?command=CartInsert&prodId=${prod.p_id}&cartImage=${prod.p_image}";
+     	}else{
+     		alert("로그인 하셔야 장바구니 이용이 가능합니다.");
+     	}
+    	
+    }
+    
+</script>	
+	
 	
 <jsp:include page="../view/footer.jsp"/>
