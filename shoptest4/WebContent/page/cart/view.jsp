@@ -97,7 +97,7 @@
 				
 				
 				<div align=right>
-				 	<span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/wm?command=buycart">구매하기</a></span>
+				 	<span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/wm?command=purchase">결제하기</a></span>
 				   <span style="font-size:9pt;"><a class="btn btn-default" href="${pageContext.request.contextPath}/index.jsp">메인 페이지로 가기</a></span>
 				</div>
 </div>
