@@ -78,7 +78,7 @@ s
 									</button>
 									<button type="button" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
-										<a href="${pageContext.request.contextPath}/wm/buyComplete.jsp&prodId=${prod.p_id}&prodamount=${prod.p_amount}">구매하기</a>
+										<a href="${pageContext.request.contextPath}/page/buy/buyComplete.jsp&prodId=${prod.p_id}">구매하기</a>
 										
 									</button>
 
