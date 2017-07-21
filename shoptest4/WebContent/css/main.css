@@ -843,7 +843,7 @@ h2.title {
   font-family: 'Roboto', sans-serif;
   font-size: 20px !important;
   font-weight: 700;
-  margin: 0 15px;
+  margin: 5px 15px;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -2559,4 +2559,5 @@ pre{border:0px;}
 .fs14{font-size: 14px !important;}
 .fs16{font-size: 16px !important;}
 .cw{color: #FFF !important}
+
 

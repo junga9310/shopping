@@ -81,7 +81,7 @@
 				         
 				         <div>
 				         <label for="genre">장르 선택 </label>
-				         <select name="genre" size="1" >
+				         <select name="genre" size="1" style="border:1px solid #696763">
 				         <option value="ballad">Ballad</option>
 				         <option value="ballad">Classic</option>
 				         <option value="ballad">Hiphop</option>
@@ -100,7 +100,7 @@
 				               <input type="file" id="file" name="p_image" multiple>
 				          </div>       
 				        </div>
-				        <input type="submit" value="추가하기">
+				        <input class="btn btn-default" type="submit" value="추가하기" >
 				      </form>
 				      
 				      

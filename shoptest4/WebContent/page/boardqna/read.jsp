@@ -19,6 +19,16 @@ function sendDelete(){
 
 //버튼
 function reply(){
+	
+	if(${userId!=null}){
+		document.requestForm.command.value ="writeReply";
+		document.requestForm.submit();
+	}else{
+		 alert( "답글을 달기 위해서는 로그인이 필요합니다." );
+		 return;
+	}
+	
+	
 	document.requestForm.command.value ="writeReply";
 //document.requestForm.BOARD_NUM.value="${qna.BOARD_NUM}"
  //location.href="${pageContext.request.contextPath}/page/boardqna/writereply.jsp";
@@ -63,7 +73,7 @@ document.requestForm.submit();//폼전송
 									            <!-- <p align="right"><b><span style="font-size:9pt;">다운로드</span></b></p> -->
 									        
 									        	<span style="font-size:9pt;"><b>
-									        	<a href='downLoad?BOARD_FILE=${qna.BFILE}'>
+									        	<a href='${pageContext.request.contextPath}/downLoad?BOARD_FILE=${qna.BFILE}'>
 									    			${qna.BFILE} 
 									      		</a>
 									      		  ( <fmt:formatNumber value="${qna.BFSIZE}"/> byte)

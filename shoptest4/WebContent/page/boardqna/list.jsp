@@ -7,7 +7,7 @@
 
 <div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12 mb100">
 					<table  align="center" border="0" cellpadding="5" cellspacing="2" width="100%" bordercolordark="white" bordercolorlight="black">
 					<caption><h2>Q&A</h2></caption>
 						<colgroup>
