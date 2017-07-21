@@ -1,13 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-</head>
-<body>
+<jsp:include page="../view/header.jsp"/>
+
+
+<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+
 <!-- 회워이름,주소,전화번호, 결제수단, -->
 	<div class="col-sm-8">
                <form action="${pageContext.request.contextPath}/wm?command=buycart" method="post">
@@ -64,5 +66,8 @@
 			</form>
 
             </div>
-</body>
-</html>
+</div>
+</div>
+</div>
+
+<jsp:include page="../view/footer.jsp"/>
