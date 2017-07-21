@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="wm.controller.DeleteBoardAction" project="test2" 
+    file="/test2/src/wm/controller/DeleteBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1747" y="251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="wm.controller.BuyCartAction" project="test2" 
+    file="/test2/src/wm/controller/BuyCartAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2843" y="166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="wm.controller.CustomerSelectByUser" project="test2" 
+    file="/test2/src/wm/controller/CustomerSelectByUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2084" y="669"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="wm.controller.CustomerInsertAction" project="test2" 
+    file="/test2/src/wm/controller/CustomerInsertAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2085" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="wm.controller.SelectCustomerAll" project="test2" 
+    file="/test2/src/wm/controller/SelectCustomerAll.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2085" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="wm.controller.CartInsert" project="test2" 
+    file="/test2/src/wm/controller/CartInsert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2327" y="231"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="wm.controller.InfoCust" project="test2" 
+    file="/test2/src/wm/controller/InfoCust.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2840" y="269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="wm.controller.ProdInsert" project="test2" 
+    file="/test2/src/wm/controller/ProdInsert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1783" y="785"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="wm.controller.ReplyAction" project="test2" 
+    file="/test2/src/wm/controller/ReplyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1743" y="361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="wm.controller.BuyProductAction" project="test2" 
+    file="/test2/src/wm/controller/BuyProductAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3146" y="166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="wm.controller.CartInsertAtCart" project="test2" 
+    file="/test2/src/wm/controller/CartInsertAtCart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2323" y="122"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="wm.controller.CartDelete" project="test2" 
+    file="/test2/src/wm/controller/CartDelete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2326" y="336"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="wm.controller.CustomerDeleteUser" project="test2" 
+    file="/test2/src/wm/controller/CustomerDeleteUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2396" y="770"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="wm.controller.IdCheckAction" project="test2" 
+    file="/test2/src/wm/controller/IdCheckAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2402" y="888"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="wm.controller.ProdLike" project="test2" 
+    file="/test2/src/wm/controller/ProdLike.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3108" y="843"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="wm.controller.CustomerUpdatePwAction" project="test2" 
+    file="/test2/src/wm/controller/CustomerUpdatePwAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2405" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="wm.controller.LogOutAction" project="test2" 
+    file="/test2/src/wm/controller/LogOutAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1783" y="884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="wm.controller.LoginAction" project="test2" 
+    file="/test2/src/wm/controller/LoginAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1781" y="681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="wm.controller.CustomerSelectOutdate" project="test2" 
+    file="/test2/src/wm/controller/CustomerSelectOutdate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2806" y="841"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="wm.controller.ProdAll" project="test2" 
+    file="/test2/src/wm/controller/ProdAll.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3679" y="691"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="wm.controller.ProdUpdateAll" project="test2" 
+    file="/test2/src/wm/controller/ProdUpdateAll.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3643" y="818"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="wm.controller.DetailViewBoardAction" project="test2" 
+    file="/test2/src/wm/controller/DetailViewBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1742" y="148"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="wm.controller.InsertBoardAction" project="test2" 
+    file="/test2/src/wm/controller/InsertBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6741" y="426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="wm.controller.ProdSelectAll" project="test2" 
+    file="/test2/src/wm/controller/ProdSelectAll.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7748" y="438"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="wm.controller.SelectBoardAction" project="test2" 
+    file="/test2/src/wm/controller/SelectBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6745" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="wm.controller.ProdGenre" project="test2" 
+    file="/test2/src/wm/controller/ProdGenre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7751" y="324"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="wm.controller.ProdSelectWhere" project="test2" 
+    file="/test2/src/wm/controller/ProdSelectWhere.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7749" y="559"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="wm.controller.CartSelectByUserId" project="test2" 
+    file="/test2/src/wm/controller/CartSelectByUserId.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7058" y="79"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="wm.controller.CutomerUpdateInfoAction" project="test2" 
+    file="/test2/src/wm/controller/CutomerUpdateInfoAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7408" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="wm.controller.UpdateBoardAction" project="test2" 
+    file="/test2/src/wm/controller/UpdateBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7749" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="wm.controller.ProdDetail" project="test2" 
+    file="/test2/src/wm/controller/ProdDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8069" y="623"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="wm.controller.ProdOrder" project="test2" 
+    file="/test2/src/wm/controller/ProdOrder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8874" y="433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="wm.controller.ProdDelete" project="test2" 
+    file="/test2/src/wm/controller/ProdDelete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8869" y="649"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="wm.controller.ProdUpdateQtt" project="test2" 
+    file="/test2/src/wm/controller/ProdUpdateQtt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8878" y="214"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="wm.controller.UpdateFormBoardAction" project="test2" 
+    file="/test2/src/wm/controller/UpdateFormBoardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8551" y="-14"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="wm.controller.SelectProdOne" project="test2" 
+    file="/test2/src/wm/controller/SelectProdOne.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8882" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="wm.controller.CustomerUpdateOut" project="test2" 
+    file="/test2/src/wm/controller/CustomerUpdateOut.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8212" y="0"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="wm.controller.FrontController" project="test2" 
+    file="/test2/src/wm/controller/FrontController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7388" y="351"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="wm.controller.ProdIndex" project="test2" 
+    file="/test2/src/wm/controller/ProdIndex.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8878" y="331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="40" language="java" name="wm.model.dao.BuyTwoDAO" project="test2" 
+    file="/test2/src/wm/model/dao/BuyTwoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="59" width="119" x="1077" y="675"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="41" language="java" name="wm.model.dao.CartDAOImpl" project="test2" 
+    file="/test2/src/wm/model/dao/CartDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="228" x="33" y="390"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="42" language="java" name="wm.model.dao.CartDAO" project="test2" 
+    file="/test2/src/wm/model/dao/CartDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="228" x="35" y="682"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="43" language="java" name="wm.model.dao.CustomerDAOImpl" project="test2" 
+    file="/test2/src/wm/model/dao/CustomerDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="194" width="182" x="310" y="429"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="44" language="java" name="wm.model.dao.BoardDAO" project="test2" 
+    file="/test2/src/wm/model/dao/BoardDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="227" x="806" y="679"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="wm.model.dao.ProductDAOImpl" project="test2" 
+    file="/test2/src/wm/model/dao/ProductDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="385" width="201" x="540" y="264"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="wm.model.dao.BoardDaoImpl" project="test2" 
+    file="/test2/src/wm/model/dao/BoardDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="219" x="807" y="477"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="47" language="java" name="wm.model.dao.ProductDAO" project="test2" 
+    file="/test2/src/wm/model/dao/ProductDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="61" width="255" x="531" y="681"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="48" language="java" name="wm.model.dao.BuyoneDAO" project="test2" 
+    file="/test2/src/wm/model/dao/BuyoneDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="59" width="115" x="1284" y="677"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="49" language="java" name="wm.model.dao.BuyTwoDAOImpl" project="test2" 
+    file="/test2/src/wm/model/dao/BuyTwoDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="194" x="1041" y="474"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="wm.model.dao.BuyoneDAOImpl" project="test2" 
+    file="/test2/src/wm/model/dao/BuyoneDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="175" x="1249" y="469"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="wm.model.dao.CustomerDAO" project="test2" 
+    file="/test2/src/wm/model/dao/CustomerDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="236" x="277" y="681"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="52" language="java" name="wm.controller.Action" project="test2" 
+    file="/test2/src/wm/controller/Action.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2611" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="53">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="54">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="55">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="56">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="57">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <realization id="59">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="60">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="61">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <realization id="62">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="63">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="42"/>  
+  </realization>  
+  <realization id="64">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="65">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="67">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="70">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="77">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="78">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="79">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="47"/>  
+  </realization>  
+  <realization id="85">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="86">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="88">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <association id="89">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="90" name="map"/>      
+      <multiplicity id="91" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="93">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <realization id="94">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="95">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="96">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="97">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
